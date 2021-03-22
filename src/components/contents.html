@@ -1,0 +1,131 @@
+<div class="app-contents">
+  <div class="app-contents__top">
+    <div class="container">
+      <ul class="app-contents__tab-links">
+        <li class="app-contents__tab-link active">My homepage</li>
+        <li class="app-contents__tab-link">My details</li>
+        <li class="app-contents__tab-link">How to claim</li>
+      </ul>
+    </div>
+  </div>
+  <div class="container">
+    <div class="app-contents__main">
+      <h1>Change your car insurance policy</h1>
+      <div class="insurance-block">
+        <div class="insurance-block__head">
+          <div class="insurance-block__head__left"></div>
+          <div class="insurance-block__head__right">
+            <h3>DG20 TOC</h3>
+            <p class="overflow">
+              2019 Volkswagen, Tiguan SE Nav 4Motion TSI 150 DSG Line...
+            </p>
+          </div>
+        </div>
+        <div class="insurance-block__details">
+          <div class="insurance-block__details__block">
+            <h4>Policy number:</h4>
+            <p>AOL12410241</p>
+          </div>
+          <div class="insurance-block__details__block">
+            <h4>Starts:</h4>
+            <p>22/12/2020 00:00</p>
+          </div>
+          <div class="insurance-block__details__block">
+            <h4>Ends:</h4>
+            <p>22/12/2021 23:59</p>
+          </div>
+        </div>
+      </div>
+      <h2>Making changes to your policy</h2>
+      <div class="nota-bene">
+        <div class="nota-bene__icon"></div>
+        <div class="nota-bene__right">
+          <h3>
+            Remember, we don't charge admin fees to make changes to your policy
+          </h3>
+          <p>
+            Any changes you make wil be processed automatically. This may affect
+            the price of your cover or whether we can still insure you. Please
+            see our <a class="info-link">Important Information Document</a> for
+            more details.
+          </p>
+        </div>
+      </div>
+      <form class="changes-form">
+        <h3>What change would you like to make?</h3>
+
+        <div class="changes-form__grid">
+          <!-- In real life situation would go through the trouble to create the
+          items below as radio buttons. -->
+          <label class="changes-form__grid-item active-grid-item">
+            <input type="radio" checked="checked" name="radio" value="1" />
+            <h3 class="changes-form__grid-item__title">
+              Change car details and usage
+            </h3>
+            <p class="changes-form__grid-item__description">
+              Insure a new car or change car details e.g.
+              <strong>business use</strong>, mileage or registration number.
+            </p>
+            <div class="changes-form__grid-item__button"></div>
+          </label>
+          <label class="changes-form__grid-item">
+            <input type="radio" name="radio" value="2" />
+            <h3 class="changes-form__grid-item__title">Change driver</h3>
+            <p class="changes-form__grid-item__description">
+              Change driver details e.g. occupation, marital status or
+              convictions.
+            </p>
+            <div class="changes-form__grid-item__button"></div>
+          </label>
+          <label class="changes-form__grid-item">
+            <input type="radio" name="radio" value="3" />
+            <h3 class="changes-form__grid-item__title">Add a driver</h3>
+            <p class="changes-form__grid-item__description">
+              Add a new driver (we can't insure drivers under 21 at the start of
+              your policy).
+            </p>
+            <div class="changes-form__grid-item__button"></div>
+          </label>
+          <label class="changes-form__grid-item">
+            <input type="radio" name="radio" value="4" />
+            <h3 class="changes-form__grid-item__title">Change or add cover</h3>
+            <p class="changes-form__grid-item__description">
+              You can change your voluntary excess and add/edit your additional
+              cover options.
+            </p>
+            <div class="changes-form__grid-item__button"></div>
+          </label>
+          <label class="changes-form__grid-item">
+            <input type="radio" name="radio" value="5" />
+            <h3 class="changes-form__grid-item__title">Change address</h3>
+            <p class="changes-form__grid-item__description">
+              Insure a new car or change car details e.g. business use, mileage
+              or registration number.
+            </p>
+            <div class="changes-form__grid-item__button"></div>
+          </label>
+          <label class="changes-form__grid-item">
+            <input type="radio" name="radio" value="6" />
+            <h3 class="changes-form__grid-item__title">
+              Change payment details
+            </h3>
+            <p class="changes-form__grid-item__description">
+              Insure a new car or change car details e.g. business use, mileage
+              or registration number.
+            </p>
+            <div class="changes-form__grid-item__button"></div>
+          </label>
+        </div>
+        <h3>When would you like this change to start? (DD/MM/YYYY)</h3>
+        <p class="when">
+          Changes starting today will be effective immediately. Future changes
+          will be effective from 00:00 on the date you select.
+        </p>
+        <!-- Custom style "date" input only works on Chrome currently
+          (would require custom solutions for different browsers) -->
+        <input type="date" required />
+        <input class="primary-btn" type="submit" value="Continue" />
+      </form>
+    </div>
+  </div>
+</div>
